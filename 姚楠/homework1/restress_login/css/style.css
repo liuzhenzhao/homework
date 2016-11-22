@@ -1,0 +1,28 @@
+.main{
+    background-image: url("../background.jpg");
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+
+#loginDiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:rgba(171, 216, 192, 0.4);
+    /*opacity: 0.5;*/
+}
+
+.id{
+    margin-bottom: 10px;
+    height: 35px;
+}
+.password{
+    margin-bottom: 10px;
+    height: 35px;
+}
+#loginBtn{
+    height: 35px;
+}
