@@ -1,0 +1,51 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url(../千库网-蓝色炫彩科技背景.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.xy{
+    margin-top: 6%;
+    margin-left: 67%;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: smaller;
+}
+.login{
+        background-color: rgba(255,255,255,0.3);
+        margin: auto;
+    height: 260px;
+    width:400px;
+    left: 30%;
+    margin-top: 0%;
+    position: relative;
+    top:150px;
+    text-align: center;
+    border: #fff;
+}
+h2{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: white 3px solid;
+}
+input{
+    height:25px;
+    width:230px;
+    margin-top: 14px;
+    font-size: 14px;
+    margin-inside: 2px;
+    border-radius: 3px;
+}
+button {
+    margin-top: 25px;
+    height: 30px;
+    width: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    color: black;
+}
