@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <link rel="stylesheet"href="../css/login.css">;
+    <script type="text/javascript">
+        function rec(){
+            var mymessage= confirm("欢迎开启前端世界的大门！")        ;
+            if(mymessage==true)
+            {
+                window.open("http://www.imooc.com/course/programdetail/pid/32");
+            }
+            else
+            {
+                alert("好吧，我们下次再见！");
+            }
+        }
+        function zhc(){
+            window.open("http://register.hust.edu.cn/index.jsp")
+        }
+    </script>;
+</head>
+<body>
+    <div class="login">
+        <div class="login-header">
+            <h1>登陆界面</h1>
+        </div>
+        <div class="login-content">
+            <label for="usename">用户名</label>
+            <input type="text" id="usename" placeholder="请输入用户名"><br/>
+            <label for="password">密 &nbsp;码</label>
+            <input type="password" id="password" placeholder="请输入密码"><br/>
+            <input name="button" type="button" id="button1"
+                   onclick="rec()" value="登陆" />
+
+            <input name="button" type="button" id="button2"
+                   onclick="zhc()" value="注册"/>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+</body>
+</html>
