@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/login.css">
+
+</head>
+<body>
+    <div class="login">
+        <div class="login-header">
+            <h1>Login Page</h1>
+        </div>
+        <div class="login-content">
+            <label for="usename">Username</label>
+            <input type="text" id="usename" placeholder="&nbsp;&nbsp;Input the username"><br />
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="&nbsp;&nbsp;Input your password"><br />
+            <button id="button1">Log&nbsp;&nbsp;In</button>
+            <button id="button2">Sign&nbsp;&nbsp;Up</button>
+        </div>
+    </div>
+    <script>
+        var btn = document.getElementById("button1");
+        btn.onclick = function () {
+            alert("Login Failure!!!");
+        }
+        var btn = document.getElementById("button2");
+        btn.onclick = function () {
+            alert("Please input a username whatever you like!!!");
+        }
+    </script>
+</body>
+</html>
