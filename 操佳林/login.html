@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        div{
+            text-align: center;
+        }
+        #pid{
+            width: 800px;
+            height: 50px;
+            font-size: 36px;
+            margin: 0 auto;
+        }
+        #loginid{
+            width: 800px;
+            height:600px;
+            margin: 0 auto;
+        }
+        .inputFirst{
+            margin: 0 auto;
+            display: block;
+            font-size: 22px;
+            width: 355px;
+            height: 45px;
+            margin-top: 50px;
+            border-radius: 6px;
+            padding-left:  40px;
+            background: url("images/username_ico.png");
+            background-repeat: no-repeat;
+            background-position: left;
+
+        }
+        .inputSecond{
+            margin-top: 30px;
+            background: url("images/password_ico.png");
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        .btn{
+            margin: 0 auto;
+            display: block;
+            width: 396px;
+            height: 36px;
+            color: white;
+            font-size: 22px;
+            margin-top: 30px;
+            text-align: center;
+            padding-top: 7px;
+            background-color: crimson;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+<div id="pid">
+<p >欢迎大家使用我的登录页面！</p>
+</div>
+<div id="loginid">
+<input placeholder="username" class="inputFirst"  id="inputFirst">
+<input placeholder="password" class="inputFirst inputSecond" type="password" id="inputSecond">
+<botton class="btn" id="btnLogin">login</botton>
+</div>
+
+<script>
+    var btnLogin=document.getElementById("btnLogin");
+    var inputFirst=document.getElementById("inputFirst");
+    var inputSecond=document.getElementById("inputSecond");
+    btnLogin.onclick=function(){
+        if(inputFirst.value==""){alert("请输入用户名！")}
+        if(inputSecond.value==""){alert("请输入密码！")}
+        else{
+            alert("我没有写后台，算你登陆成功了");
+        }
+    }
+</script>
+</body>
+</html>
