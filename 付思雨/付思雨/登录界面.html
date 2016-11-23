@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+
+</head>
+<body>
+
+<div class="login">
+    <div class="login-header"><h1>登&nbsp;录</h1></div>
+    <div class="login-content">
+        <label for="usename">用户名</label>
+        <input type="text" id="usename"  placeholder="请输入用户名" ><br/>
+        <label for="usename">密&nbsp;码</label>
+        <input type="password" id="usename" placeholder="请输入密码">
+        <div class="footer">
+            <div class="t1"><a href="#">忘记密码</a></div>&nbsp;<div class="t2" id="zhuce"><a href="#">立即注册</a></div>
+        </div>
+        <button id="button">登录</button>
+    </div>
+    <script>
+        var button= document.getElementById("button");
+        button.onclick = function () {
+            alert("欢迎登录!");
+        }
+    </script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/*背景设置*/
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Microsoft Yahei", "STHeiti", sans-serif;
+}
+
+/*容器布局*/
+.login-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+/*容器颜色和样式*/
+.login-container {
+  background-color: pink;
+  opacity: 0.5;
+  border-radius: 15px;
+
+}
+/*标题居中*/
+.login-head {
+    text-align: center;
+}
+
+/*输入框布局、颜色、字体大小*/
+input {
+  width: 300px;
+  height: 35px;
+  margin: 20px 20%;
+  padding-left: 5px;
+  font-size: larger;
+  border-radius: 6px;
+}
+
+/*按钮布局、样式*/
+button {
+  width: 150px;
+  height: 35px;
+  font-size: large;
+  border: 1px;
+  border-radius: 6px;
+  background-color: violet;
+}
+
+#id-button-login {
+  margin: 20px 0 0 20%;
+}
+#id-button-register {
+  margin: 20px 5px;
+}
+
+/*边界检查*/
+/*div, input {
+    outline: 1px red dashed;
+}*/

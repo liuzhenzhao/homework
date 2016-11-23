@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0" />
+    <link rel="shortcut icon" href="image/snc.ico" type="image/x-icon" />
+    <title></title>
+    <style>
+    @media screen and (max-width: 800px) {
+        body {
+            text-align: center;
+            width: 100%;
+            background-image: url(image/mback.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        input {
+            display: block;
+            width: 60%;
+            margin: 30px auto;
+            height: 50px;
+            font-size: 1.3em;
+            padding-left: 12px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: white;
+            padding: 0 15px 0;
+        }
+    }
+    
+    @media screen and (min-width: 801px) {
+        body {
+            margin: 0;
+            padding: 50px 0 0 0;
+            text-align: center;
+            width: 100%;
+            background-image: url(image/back.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: #464646;
+        }
+        input {
+            width: 30%;
+            margin: 50px 300px 0;
+            padding-left: 20px;
+            height: 50px;
+            border-radius: 20px;
+            border-width: 0;
+        }
+        #submit {
+            width: 150px;
+            font-size: 1.5em;
+        }
+        h1 {
+            margin-bottom: 80px;
+        }
+    }
+    
+    p {
+        margin-top: 200px;
+        color: white;
+    }
+    
+    .modal {
+        position: absolute;
+        top: 200px;
+        left: 40%;
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        background-color: white;
+        line-height: 200px;
+        display: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="modal">这个没有后台,登录不了</div>
+    <h1>登录界面,想起来没写注册按钮</h1>
+    <form action="#" method="post">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="submit" value="登录" id="submit">
+    </form>
+    <p>Powered by 张超</p>
+</body>
+<script>
+var oBtn = document.getElementsByTagName('input')[2];
+var modal = document.getElementsByClassName('modal')[0];
+oBtn.onclick = function(e) {
+    if (e && e.preventDefault)  e.preventDefault();
+    else window.event.returnValue = false;
+    modal.style.display = 'block';
+}
+</script>
+
+</html>

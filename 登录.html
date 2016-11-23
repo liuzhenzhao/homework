@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>>登录界面</title>
+
+    <style>
+        body{
+           background-image: url("aad46a325978581d4b219da37c817199.jpg");
+     background-size: cover;
+        background-repeat: no-repeat;
+        }
+      div{
+          background-image: url("login-background.png");
+          height: 300px;
+          width: 600px;
+          position: relative;
+          margin: auto;
+          top: 150px;
+          text-align: center;
+          border-radius: 3px;
+          border-color: chartreuse;
+      }
+        h1{
+
+           margin-top: 100px;
+            text-align: center;
+            border-bottom: white 3px solid;
+        }
+        input{
+
+            width: 300px;
+            height: 30px;
+            margin: 20px;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+        button{
+            width: 100px;
+            height: 40px;
+font-size: large;
+            border-radius: 3px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div>
+    <h1 ><b>登录界面</b></h1>
+    <content>
+        <label for="usename">用户名</label>
+        <input type="text" id="usename" placeholder="请输入用户名"><br />
+        <label for="password">密 码  </label>
+        <input type="text" id="password" placeholder="请输入密码"><br />
+        <button id="button"><b>登录</b></button>
+    </content>
+    <script>
+        var btn = document.getElementById("button");
+        btn.onclick = function () {
+            alert("登录成功");
+        }
+    </script>
+</div>
+</body>
+</html>
