@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet"href="css/login.css">
+</head>
+<body>
+<div class="login">
+    <div class="login-header">
+        <h1>只有帅比才能登录</h1>
+    </div>
+    <div class="login-content">
+        <label for="username">用户名</label>
+        <input type="text"id="username"placeholder="please input your username"><br>
+        <label for="password">密 码</label>
+        <input type="text"id="password"placeholder="please input your passwrd"><br>
+        <button id="button1">登录</button>
+        <button id="button2">注册</button>
+    </div>
+</div>
+<script>
+    var btn=document.getElementById("button1");
+    btn.onclick=function(){
+        alert("登录成功");
+    }
+</script>
+<script>
+    var btn=document.getElementById("button2");
+    btn.onclick=function(){
+        alert("欢迎注册")
+    }
+</script>
+</body>
+</html>
