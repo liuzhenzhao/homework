@@ -1,0 +1,47 @@
+body,html{  height: 100%;  margin: 0;}
+body{
+    background-image: url("./img/20160318213824_iCUKS.jpeg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login
+{ background-color: rgba(255,255,255,0);
+margin:auto;
+    height: 350px;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    border:#ffffff;
+}
+h1{
+    font-family: 华文行楷;
+    color: darkslategrey;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+}
+p{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    color: darkslategrey;
+    font-family: Algerian;
+    border-bottom: white 2px solid;
+}
+input{background-color: rgba(255,255,255,0);
+    height: 30px;
+    width: 300px;
+    margin:20px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+button{
+    font-family: 华文新魏;
+    height: 30px;
+    width: 80px;
+}
+label{
+    font-family: 微软雅黑;
+    color: cornflowerblue;
+}

@@ -1,0 +1,39 @@
+body,html{
+    height: 100%;
+    margin: 0;}
+/*为了背景图片能占满整个屏幕，在此将margin（外边距）设为0，高度height设为100%（body，html用逗号隔开，意为同时编写这两个元素的样式）
+*/
+body{
+    background-image: url("../image/hust.jpg");/*要添加图片的路径*/
+    background-size: cover;/*图片占满整个屏幕*/
+    background-repeat: no-repeat;/*不重复背景图像*/
+}
+
+.login
+{ background-color: rgba(255,255,255,0.6);/*rgba分别为red、green、blue三原色，a为透明度；这样设置即为白色，透明度为0.6*/
+    margin:auto;
+    height: 350px;
+    width: 500px;/*通过margin：auto和width可以实现div.login的水平居中*/
+    position: relative;
+    top: 150px;/*通过position：relative（相对于原有位置的调整）和top，可实现水平位置较原有下移150px*/
+    text-align: center;/*实现div.login里其它元素（label，输入框，button）的居中*/
+    border:#ffffff;/*设置白色的边框*/
+}
+h1{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;/*将h1调整在一个合适的位置*/
+    border-bottom: white 3px solid;/*加底部边框*/
+    text-align:center;  /*这个是居中吧*/
+}
+input{
+    height: 30px;
+    width: 300px;/*设置input输入框的长和宽*/
+    margin:20px;/*通过设置margin可使两个输入框不紧靠在一起，上下之间有20*2=40px的间距，并且于label之间也有一定间距，看起来更美观*/
+    font-size: 14px;/*设置字体大小*/
+    border-radius: 6px;/*将输入框的四个直角改为四个半径为6px的圆角*/
+}
+button{
+    height: 30px;
+    width: 80px;/*设置按钮的长和宽*/
+}

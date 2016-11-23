@@ -1,0 +1,65 @@
+html,body {
+	height: 100%;
+	margin: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("img/bg.jpg");
+	background-size: cover;
+	font-family: "微软雅黑";
+	color: white;
+}
+
+#login {
+	background-color: rgba(0,0,0,0.5);
+	width: 500px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+}
+#login h1 {
+	font-weight: 500;
+	font-size: 35px;
+	border-bottom: white 2px solid;
+	padding-bottom: 30px;
+	cursor: default;
+}
+#login label {
+	display: inline-flex;
+	padding: 25px 0;
+	font-size: 22px;
+}
+#login input {
+	line-height: 25px;
+	height: 25px;
+	font-size: 18px;
+	margin-left: 30px;
+	border-radius: 5px;
+	border:0;
+	padding-left: 10px;
+	opacity: 0.6;
+}
+#login input:focus {
+	box-shadow: 0 0 5px white;
+	opacity: 1;
+	transition: opacity 1s;
+}
+#submit {
+	margin-top: 20px;
+	width: 100px;
+	letter-spacing: 8px;
+	text-indent: 5px;
+}
+#atten {
+	background-color: yellow;
+	width: 200px;
+	height: 200px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<div class="login">
+    <div class="login-header">
+        <h1>华师一欢迎您</h1>
+    </div>
+    <div class="login-content">
+        <label for="usename">账号</label>
+        <input type="text" id="usename" placeholder="                         请输入账号"><br/>
+        <label for="password">密码</label>
+        <input type="text" id="password" placeholder="                         请输入密码"><br/>
+        <button id="button1">走向华师一</button>
+        <button id="button2">注&nbsp&nbsp&nbsp册</button>
+    </div>
+    <script>
+        var btn1=document.getElementById("button1");
+        btn1.onclick=function () {
+            alert("自主创新学习，多元优质发展\n"+
+            "培养学生终生学习的能力\n\n\n"+"欢迎进入华师一附中");
+        };
+        var btn2=document.getElementById("button2");
+        btn2.onclick=function () {
+            alert("现在就注册成为华一er吧")
+        };
+    </script>
+</div>
+
+</body>
+</html>
