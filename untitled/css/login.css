@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;
 }
 .login
-{ background-color: rgba(255,255,255,0.6);
+{ background-color: rgba(255,255,255,0);
 margin:auto;
     height: 350px;
     width: 500px;
@@ -29,7 +29,7 @@ p{
     font-family: Algerian;
     border-bottom: white 2px solid;
 }
-input{
+input{background-color: rgba(255,255,255,0);
     height: 30px;
     width: 300px;
     margin:20px;
@@ -40,4 +40,8 @@ button{
     font-family: 华文新魏;
     height: 30px;
     width: 80px;
+}
+label{
+    font-family: 微软雅黑;
+    color: cornflowerblue;
 }
