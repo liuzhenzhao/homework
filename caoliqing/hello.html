@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to CLQS</title>
+    <style>
+        body{
+            background-image: url("img/background.jpg");
+            background-size: cover;
+            background-repeat: repeat-y;
+        }
+        .sign{
+            width: 300px;
+            height: 400px;
+            background-color: #eee;
+            opacity:0.7;
+            filter:alpha(opacity=70);
+            margin-top: 10px;
+            margin-bottom: auto;
+            margin-right: 10px;
+            margin-left: auto;
+            border: 2px solid #888;
+            border-radius: 10px;
+        }
+        .input{
+            display: block;
+            width: 66%;
+            height: 30px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+            padding: 3px 10px;
+        }
+        .input2{
+            margin-top: 20px;
+        }
+        .button{
+            width: 60%;
+            height: 35px;
+            margin-top: 30px;
+            margin-left: 20%;
+            margin-right: auto;
+        }
+        .button2{
+            margin-top: 20px;
+        }
+        .text{
+            margin-top: 30px;
+            margin-left: 20%;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="sign">
+        <h2 class="text">Welcom to CLQS</h2>
+        <input placeholder="用户名" class="input" id="text_1">
+        <input placeholder="密码" type="password" class="input input2" id="text_2">
+        <button class="button" id="button">登录</button>
+        <button class="button button2" id="button2">注册</button>
+    </div>
+</body>
+<script>
+    var button1=document.getElementById("button");
+    var user;
+    var password;
+    button1.onclick=function(){
+        user = document.getElementById("text_1").value;
+        password = document.getElementById("text_2").value;
+        if (user==null||user==""){ alert("请输入用户名！"); }else{
+            alert("欢迎登陆！\n"+user);
+            window.location.replace("http://user.qzone.qq.com/1714153578");
+        }
+    };
+    var button2=document.getElementById("button2");
+    button2.onclick=function(){
+        alert("欢迎注册\n本系统！");
+        alert("就写这些了！");
+        alert("这周要考试！");
+        alert("去复习了！");
+        alert("THANK YOU！");
+        window.close();
+    }
+</script>
+</html>

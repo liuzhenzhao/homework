@@ -1,0 +1,44 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login
+{
+    background-color: rgba(234,230,166,0.4);
+    margin: auto;
+    height: 350px;
+    width:500px;
+    position:relative;
+    top:100px;
+    align-content: center;
+    border:#ffffff;
+}
+
+h1{
+    font-family: 华文琥珀 ;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom:30px;
+    text-align: center;
+    border-bottom:white 3px solid;
+}
+input{
+    text-align: center;
+    height:30px;
+    width:300px;
+    margin:20px;
+    font-size:20px;
+    border-radius: 10px;
+}
+.button{
+    margin-top: 5px;
+    height: 40px;
+    width: 200px;
+    margin-left: 120px;
+}
