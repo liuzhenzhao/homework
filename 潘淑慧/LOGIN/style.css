@@ -1,0 +1,223 @@
+/*--login--*/
+.login-left {
+    padding: 0;
+}
+.login-left h3, .login-right h3 {
+    color:#83d4ca;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+.login-left p, .login-right p {
+    color:#969696;
+    display: block;
+    font-size: 1.1em;
+    margin: 0 0 1em 0;
+    line-height: 1.8em;
+
+}
+.acount-btn {
+    background:#83d4ca;
+    color: #FFF;
+    font-size: 0.9em;
+    padding: 0.7em 1.2em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #83d4ca;
+}
+.acount-btn:hover, .login-right input[type="submit"]:hover{
+    background:none;
+    text-decoration:none;
+    border: 1px solid #969696;
+    color:#969696;
+}
+.login-right form {
+    padding: 1em 0;
+}
+.login-right form div {
+    padding: 0 0 1.5em 0;
+}
+.login-right span {
+    color: #969696;
+    font-size:0.9em;
+    padding-bottom: 0.2em;
+    display: block;
+}
+.login-right input[type="text"] {
+    border: 1px solid #969696;
+    outline:none;
+    width: 100%;
+    font-size:0.9em;
+    padding:10px;
+
+}
+.login-right input[type="text"]:hover {
+    border: 1px solid #83d4ca;
+}
+.login-right input[type="submit"] {
+    background:#83d4ca;
+    color: #FFF;
+    font-size: 1em;
+    padding: 0.5em 1.2em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    text-transform: uppercase;
+    border:none;
+    outline:none;
+    border: 1px solid #83d4ca;
+}
+a.forgot {
+    font-size: 0.8125em;
+    margin-right: 13px;
+}
+.account_grid {
+    width: 70%;
+    margin: 4em 0;
+}
+
+.itemContainer{
+    width:100%;
+    float:left;
+}
+
+.itemContainer div{
+    float:left;
+    margin: 5px 20px 5px 20px ;
+}
+
+.itemContainer a{
+    text-decoration:none;
+}
+
+.cartHeaders{
+    width:100%;
+    float:left;
+}
+.copyrights{
+    text-indent:-9999px;
+    height:0;
+    line-height:0;
+    font-size:0;
+    overflow:hidden;
+}
+
+.cartHeaders div{
+    float:left;
+    margin: 5px 20px 5px 20px ;
+}
+.item_add {
+
+}
+.grid_1 img{
+    margin-bottom:1em;
+}
+.box_1{
+    float: right;
+    width: 11%;
+    margin-top: 1.5em;
+}
+
+.box_1 h3{
+    color: #fff;
+    font-size: 1em;
+    padding: 0px;
+    float: left;
+}
+.box_1 h3 img{
+    margin-left: 5px;
+}
+.box_1 p{
+
+    float: left;
+}
+.box_1 p a{
+    color:#fff;
+    font-size:1em;
+}
+.box_1 p a:hover{
+    color:#83d4ca;
+    text-decoration:underline;
+}
+.total {
+    display: inline-block;
+}
+
+.header5 {
+    min-height: 89px;
+
+}
+.header-top{
+    background: #83d4ca;
+}
+.header-info {
+    padding: 0;
+    background: #ffffff;
+}
+
+
+.register {
+    width: 70%;
+    margin: 4em 0;
+}
+.register h3 {
+    color: #83d4ca;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+.register span{
+    color: #999;
+    font-size:0.9em;
+    padding-bottom: 0.2em;
+    display: block;
+    text-transform: uppercase;
+}
+.register input[type="text"] {
+    border: 1px solid #999;
+    outline:none;
+    width: 100%;
+    font-size:0.9em;
+    padding:10px;
+}
+.register input[type="text"]:hover {
+    border: 1px solid #83d4ca;
+}
+.register  input[type="submit"] {
+    background: #83d4ca;
+    color:#fff;
+    font-size:1.1em;
+    border:none;
+    width:20%;
+    outline:none;
+    font-weight: 600;
+    padding:0.5em 1em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    border: 1px solid #83d4ca;
+}
+.register input[type="submit"]:hover{
+    background:none;
+    border: 1px solid #999;
+    color:#999;
+}
+.register form div {
+    padding: 0 0 1em 0;
+}
+.register form{
+    padding:1em 0;
+}
+.mation{
+    padding: 1em 0;
+}
+
