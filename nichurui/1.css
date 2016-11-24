@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	background-image: url("images\\bgcolor.png");
+}
+
+
+.login{
+	margin: auto;
+	height: 350px;
+	width: 380px;
+	text-align: center;
+}
+
+h1{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.login_content{
+	background-color: rgba(255,255,255,0.5);
+	border: white 3px solid;
+}
+
+label,input{
+	margin:  10px;
+}
+
+button{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
