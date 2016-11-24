@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft</title>
+    <style media="screen">
+        body,html{
+            height:100%;
+            margin:0;
+        }
+        body{background-image: url("../img/2.jpg");
+        background-size: cover;
+        }
+        .login {
+            background-color: rgba(255,255,255,0.3);
+            margin:auto;
+            height: 350px;
+            width: 500px;
+            position: relative;
+            top: 150px;
+            text-align: center;
+            border:#FFFFFF;
+        }
+        h1{
+            margin:0;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #000000;
+        }
+        label{
+            font-family: 楷体,serif;
+            font-size: larger;
+            margin-left: 30px;
+        }
+        #usename{
+            height: 30px;
+            width: 280px;
+            margin: 10px;
+            font-size: 14px;
+            border-radius: 10px;
+            background-color:rgba(255,255,255,0.1);
+        }
+        #password{
+            height: 30px;
+            width: 280px;
+            margin: 20px;
+            font-size: 14px;
+            border-radius: 10px;
+            background-color:rgba(255,255,255,0.1);
+        }
+        :-ms-input-placeholder{
+            color: #ef4c36;;
+        }
+        button{
+            border-width: 0;
+            background-color: chartreuse;
+            height: 30px;
+            width:390px;
+        }
+        button:hover{
+            background-color:#171717;
+            color: #FFFFFF;}
+        span:hover{
+            background-color: black;
+        }
+
+    </style>
+    <script language="javascript" type="text/javascript">
+        function b2(){
+            window.open("https://minecraft.net/zh-hans/login");
+        }
+    </script>
+
+</head>,
+<body>
+<div class="login">
+  <div class="login-header">
+    <h1>登录</h1>
+  </div>
+  <div class="login-content">
+      <label for="usename">电子邮件 </label>
+      <input type="text" id="usename" class="form-control" placeholder="Email is required"><br />
+      <label for="password">&ensp;&ensp;密&ensp; &nbsp;码</label>
+      <input type="password" id="password" placeholder="Password is required"><br />
+      <button id="button" onclick="b2()">登录
+      </button>
+      <p>Don't have an account?<span><a href="https://minecraft.net/store/minecraft/#register/" target="_blank" onMouseOver="this.style.color='#FFFFFF'" onMouseOut="this.style.color='#16a0e8'">Register one here!
+          </a></span></p>
+
+  </div>
+</div>
+</body>
+</html>
