@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        body{
+            background-image: url(pic/background.jpg);
+            background-size: cover;
+        }
+        .input{
+            display:block;
+            width:300px;
+            height:30px;
+            margin-top:25%;
+            margin-left:10%;
+            font-size:20px;
+            padding:3px 10px;
+            border-radius:4px;
+            border:1px solid #eee;
+        }
+        .input2{
+            margin-top: 15px;
+        }
+        .button{
+            width:321.6px;
+            height: 40px;
+            margin-top: 15px;
+            margin-left:10%;
+            border-radius:4px;
+            border:1px solid #eee;
+            font-size: 20px;
+            color:#666666;
+        }
+    </style>
+</head>
+<body>
+<div class="login">
+    <input placeholder="用户名" class="input">
+    <input placeholder="密码" type="password" class="input input2">
+    <button class="button" id="button"><strong>登录</strong></button>
+</div>
+<script>
+    var button=document.getElementById("button");
+    button.onclick=function(){
+        alert("登录失败");
+    }
+</script>
+</body>
+</html>
