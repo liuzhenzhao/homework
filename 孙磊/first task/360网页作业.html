@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,15 +10,14 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        #signin{
-            margin: 0 auto;
-            margin-top: 10%;
-            height: 300px;
-            width:400px;
-            background-color:rgba(255,255,255,0.6) ;
-        }
-        #div{
-            margin-top: -10px;
+        header{
+            width:40%;
+            margin:0 auto;
+            margin-top: 6%;
+            border-bottom: 5px solid gray;
+            color: #000;
+            text-align: center;
+            font: 30px 'Microsoft YaHei','Hiragino Sans GB',Arial,sans-serif;
         }
         footer{
             text-align: center;
@@ -25,21 +25,6 @@
             width: 100%;
             color: #000;
             bottom: 0px;
-        }
-        .input{
-            display: block;
-            height: 30px;
-            width: 200px;
-            margin: 0 auto;
-            padding: 2px 8px;
-            border: 1px solid black;
-            margin-top: 100px;
-            position: relative;
-            top: 80px;
-            font-size: 15px;
-        }
-        .input2{
-            margin-top: 30px;
         }
         body button{
             height: 30px;
@@ -50,9 +35,72 @@
             color: white;
             line-height: 30px;
             font-size: 20px;
-            margin-top: 10px;
             position: relative;
-            top: 120px;
+            top: 20px;;
+        }
+        #signin{
+            margin: 0 auto;
+            height: 250px;
+            width:300px;
+            background-color:rgba(255,255,255,0.6) ;
+            padding: 0px;;
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+        #div{
+            margin-top: 0px;
+            text-align: center
+        }
+        #forget{
+            display: block;
+            font-size: 10px;;
+            position: relative;
+            left: 200px;
+            text-decoration: none;
+            color: black;
+        }
+        #yz{
+            display: inline-block;
+            height: 25px;
+            width: 100px;
+            margin-top: 10px;
+            margin-left: 40.8px;
+            padding: 2px 8px;
+            border: 1px solid black;
+            font-size: 15px;
+        }
+        #picture{
+            display: inline-block;
+            height: 28px;
+            width: 93px;
+            position: relative;
+            left: 0px;
+            top: 10px;
+        }
+        #change{
+            font-size: 10px;
+            text-decoration: none;
+            color: black;
+            margin: 0px;
+        }
+        #box{
+            height: 10px;
+            width: 100px;
+            position: relative;
+            left: 200px;
+        }
+        .input{
+            display: block;
+            height: 25px;
+            width: 200px;
+            margin: 0 auto;
+            padding: 2px 8px;
+            border: 1px solid black;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .input2{
+            margin-top: 25px;
         }
     </style>
     <script>
@@ -60,15 +108,29 @@
             alert('welcome');
         }
         function alt2() {
-            alert('请随便输入一个账号，你喜欢就好')
+            alert('请随便输入一个账号，你喜欢就好');
+        }
+        function alt3() {
+            alert('任性')
+        }
+        function code(){
+            var a=document.getElementById('picture');
+            var b=document.getElementById('change');
+            a.style.backgroundImage="url('picture/2.png')";
+            b.innerHTML="看不清，自己画一个"
         }
     </script>
 </head>
 <body>
+    <header>登录</header>
     <div id="signin">
         <input class="input" placeholder="请输入账号">
         <input class="input input2" type="password" placeholder="请输入密码">
-        <div id="div" style="text-align: center">
+        <a id="forget" href="http://www.360.com/">忘记密码？></a>
+        <input id="yz" placeholder="验证码" onclick="code()">
+        <div id="picture"></div>
+        <div id="box"><p id="change" onclick="alt3()"></p></div>
+        <div id="div">
             <button onclick="alt()">登录</button>
             <button onclick="alt2()">注册</button>
         </div>

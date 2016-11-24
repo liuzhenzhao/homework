@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一个网页！</title>
+    <style>
+        body{
+            background:url("image/b.jpg");
+            background-size: cover;
+        }
+        .img{
+            display: block;
+            margin-left: 200px;
+            padding: 50px 0;
+        }
+        .box{
+            width: 500px;
+            height: 400px;
+            margin-left: 750px;
+            margin-top: 220px;
+
+            border: 1px solid #666;
+            border-radius: 10px;
+            background: rgba(56,47,52,0.5);
+        }
+
+        .input{
+            display: block;
+            width: 300px;
+            height: 30px;
+            margin-top: 80px;
+            margin-left: 100px;
+            font-size: 20px;
+            padding: 3px 10px;
+        }
+        .input2{
+            margin-top: 10px;
+        }
+        .button{
+            width: 324px;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 100px;
+            background-color: brown;
+        }
+        .button1{
+            width: 324px;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 100px;
+            background-color: brown;
+        }
+        .button2{
+            width: 324px;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 100px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+<img src="image/title.gif" class="img">
+<div class="box">
+    <input placeholder="用户名" class="input"id="t1"value="">
+    <input placeholder="密码" type="password" class="input input2"id="t2"value="">
+    <button class="button" id="button">登录</button>
+    <button class="button1" id="button1">忘记密码</button>
+    <button class="button2" id="button2">学习感想</button>
+</div>
+<script>
+    var button=document.getElementById("button");
+    button.onclick=function(){
+        var gt1=document.getElementById("t1").value;
+        var gt2=document.getElementById("t2").value;
+        if(gt1==""||gt2=="")
+        {
+            if(gt1=="")
+            {
+                if(gt2=="")
+                {
+                    alert("认真点！你还啥也没输入呢！");
+                }
+                else
+                {
+                    alert("你不输入用户名只输入密码有啥用？");
+                }
+
+            }
+            else
+            {
+                alert("快点输入密码，要不我怎么知道你是不是只知道账号的大屁眼子？")
+            }
+
+        }
+        else
+        {
+            if(gt1=="NeverMore"&&gt2=="NeverMore")
+            {
+                alert("这算是一个彩蛋吧~~~，那行文字的意思是‘七层地狱是我的了’");
+                document.getElementById("t1").value="";
+                document.getElementById("t2").value="";
+
+            }
+            else
+            {
+                alert("你既然都输入了，为什么不试试‘NeverMore’呢？");
+            }
+        }
+    }
+</script>
+<script>
+    var button1=document.getElementById("button1")
+    button1.onclick=function()
+    {
+        alert("说的好像你注册过一样")
+    }
+</script>
+<script>
+    var button2=document.getElementById("button2")
+    button2.onclick=function()
+    {
+        window.open("Myfeeling.html")
+    }
+</script>
+
+</body>
+</html>
