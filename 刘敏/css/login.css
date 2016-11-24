@@ -1,0 +1,43 @@
+body,html{
+	height: 100%;
+	margin: 0;
+}/*为了背景图片能占满整个屏幕，在此将margin（外边距）设为0，高度height设为100%（body，html用逗号隔开，意为同时编写这两个元素的样式）
+*/
+
+body{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.login{
+	background-color: rgba(255,255,255,0.6);
+	margin: auto;
+	width: 500px;
+	position:relative;
+	top:150px;
+	text-align: center;
+	border:#ffffff;
+}
+ 
+h1{
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	border-bottom: white 3px solid;
+}
+
+input{
+	height: 30px;
+	width: 300px;
+	margin: 20px;
+	font-size: 14px;
+	border-radius: 6px;
+}
+
+button{
+	height: 30px;
+	width: 80px;
+	margin: 30px;
+}
