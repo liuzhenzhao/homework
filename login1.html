@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登陆界面</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="loginstyle1.css">
+	
+</head>
+<body>
+<div class="login">
+   <div class="login-header">
+   	<h1>登录界面</h1>
+   </div>
+   <div class="login-content">
+    <div class="name">
+   		<label for="usename">用户名</label>
+    	<input type="text" id="usename" placeholder="请输入用户名"><br />
+     
+   	</div> 
+    <div class="word">
+   		 <label for="password">密&nbsp;&nbsp;码&nbsp;</label>
+    	 <input type="password" id="password" placeholder="请输入密码"><br />
+    	 <div class="find">
+    	 	<a href="#">忘记密码</a>
+     	 </div>
+    </div>
+   <form>
+      <input name="open" type="button" onClick="btn1()" value="登录" / >
+      <input type="button"  value="注册" onclick="btn2();" />  
+   </form>
+
+   
+
+   </div>
+  
+</div>
+<script type="text/javascript">
+  	 function btn1()
+  	 {
+      window.open('feeling.html','_blank','width=600,height=400,top=100,left=0')
+     }
+  	
+  	function btn2()
+  	{
+  		alert("欢迎注册");
+  	}
+  </script>
+</body>
+</html>
