@@ -7,8 +7,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.login{background-color: teal;
-
+.login{
+    background-color: teal;
     margin: auto;
     height: 350px;
     width: 410px;
