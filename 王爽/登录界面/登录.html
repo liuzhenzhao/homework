@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UFT-8">
+	<title>Login</title>
+	<link rel = "stylesheet" href = "./css/login.css">
+</head>
+<body>
+	<div class = "login">
+		<div class = "login-header">
+			<h1>登录界面</h1>
+
+		</div>
+		<div class = "login-content">
+			<label for = "usename">用户名</label>
+			<input id = "usename" type = "text" placeholder = "请输入用户名"><br />
+			<label for = "password">密&nbsp;码</label>
+			<input id = "password" type = "text" placeholder = "请输入密码"><br />
+			<button id = "button">登录</button>
+		</div>
+	</div>
+	<script>
+	    var btn = document.getElementById("button");
+	    btn.onclick = function()
+	        {
+	        	alert("登录成功");
+	        }
+	 </script>
+</body>
+</html>
