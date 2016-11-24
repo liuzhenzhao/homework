@@ -1,82 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>秦时明月-登录</title>
-    <style>
+	<meta charset="UTF-8">
+	<title>The World of Mshishshi</title>
+	<style type="text/css">
+		span{
+			color: aliceblue;
+			font-size:50px;
+			font-style: normal;
+			margin-right:100px;
+		}
         body{
-            background-image: url("src/img/background.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
+            background-color: #CDBA96;
         }
-        #div1{
-            margin-top: 300px;
-            margin-left: 1300px;
-            margin-right: 200px;
+        .img{
+            display: block;
+            margin: 0 auto;
+            padding: 50px 0;
+            width :580px;
+            height :720px;
+            margin-left: 1000px;
+        }
+        .box{
+            width: 500px;
             height: 400px;
-            background-color: lightblue;
-            border: 1px;
-            border-color: yellow;
+            background: url("images/cover.jpg") no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+            border: 1px solid #666;
             border-radius: 10px;
         }
-        #div2{
-            text-align: center;
-            font-size: 40px;
-            height: 70px;
-            padding-top: 20px;;
-            border-radius: 10px;
-            background-color: deepskyblue;
-        }
-        .div3{
-            text-align: center;
-            font-size: 30px;
-            height: 60px;
-            margin-top: 15px;
-            padding-top: 30px;
-        }
-        .textInput{
-            height: 30px;
-            width: 200px;
-            padding-top: 10px;
-            font-size: 25px;
-        }
-        .passwordInput{
-            height: 30px;
-            width: 200px;
-            padding-top: 10px;
-            font-size: 25px;
-        }
-        button{
-            height: 50px;
-            width: 100px;
 
+        .input{
+            display: block;
+            width: 300px;
+            height: 30px;
+            margin-top: 80px;
+            margin-left: 100px;
+            font-size: 20px;
+            padding: 3px 10px;
         }
+        .input2{
+            margin-top: 20px;
+        }
+		.button{
+    		width: 324px;
+    		height: 40px;
+   	 		margin-top: 30px;
+    		margin-left: 100px;
+    		font-size: 20px;
+		}
+		.error{
+			color: black;
+			display: block;
+			margin-left: 100px;
+			margin-top: 20px;
+			font-size: 20px;
+		}
+		.memory{
+			color:aliceblue;
+			display: block;
+			margin-left: 100px;
+			margin-top: 5px;
+			font-size: 20px;
+		}
+		.create{
+			color: aliceblue;
+			height: 350px;
+			background: url("images/BDMenu.png");
+			font-size: 50px;
+		}
     </style>
 </head>
 <body>
-    <div id = "div1">
-        <div id = "div2">
-            用户登录
-        </div>
-        <div class = "div3">
-            <label for = "username">用户名:</label>
-            <input  type = "text" id = "username" placeholder = "请输入用户名" class = "textInput">
-        </div>
-        <div class = "div3">
-            <label for = "password">密码:</label>
-            <input type = "password" id = "password" placeholder = "请输入密码" class = "passwordInput">
-        </div>
-        <div style = "text-align: center;padding-top: 25px;">
-            <button id = "button">
-                登录
-            </button>
-        </div>
+	<h1><span>蟲</span></h1>
+	<p ><span>另一个世界，<br/>
+		住着一群与常见动植物截然不同的生物。<br/>
+		远古以来，人们敬畏地称它们为“蟲”。<span>
+	<div class="box">
+		<input placeholder="蟲名" class="input">
+    	<input placeholder="蟲码" type="password" class="input input2">
+    	<button class="button" id="button">log in</button>
+
+    	<div class="error">
+    		<strong>Username and password is required.</strong>
+    	</div>
+    	<div class="memory">
+    		would you like to remember your information?<br/>
+    		<a href="#">click to choose</a>
+    	</div>
     </div>
-    <script>
-        var btn = document.getElementById("button");
-        btn.onclick = function(){
-            alert("登录成功");
-        }
-    </script>
+    <div class="create">
+    		No Account?<br/>
+    		<a href="#">click here to create your 1st account.</a>
+    </div>
+	<script>
+    var button=document.getElementById("button");
+    button.onclick=function(){
+        alert("Welcome to the The World of Mshishshi ");
+    }
+	</script>
+	
 </body>
 </html>
