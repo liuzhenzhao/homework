@@ -1,0 +1,54 @@
+body,html{height: 100%;
+margin: 0;}
+body{
+    background-image: url("img/背景素材.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flash {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    display: inline;
+    -webkit-transition: width 0.2s, height 0.2s, -webkit-transform 0.2s;
+    transition: width 0.2s, height 0.2s, transform 0.2s;
+}
+div.flash:hover {
+    width: 180px;
+    height: 180px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.flash1{background-image: url("img/图片素材1.jpg");}
+.flash2{background-image: url("img/图片素材2.jpg");}
+.flash3{background-image: url("img/图片素材3.jpg");}
+.login {
+    background-color: rgba(255,255,255, 0.6);
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    border: #ffff00;
+}
+h1{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: snow 2px solid;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+button{
+    height: 30px;
+    width: 80px;
+
+}
