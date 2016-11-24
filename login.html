@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login">
+    <div class="header">
+        <h1>欢迎来到我的空间</h1>
+        <h2>请先登录</h2>
+    </div>
+    <div class="login-content">
+        <label for="usename">用户名</label>
+        <input type="text" id="usename"placeholder="username"><br/>
+        <label for="password">密&nbsp;码</label>
+        <input class="input" type="password" id="password" placeholder="password"><br/>
+
+        <button id="button">登录</button>
+        <button id="btn2">注册</button>
+    </div>
+    <script>
+        var btn=document.getElementById("button");
+        var username;
+        var btn2=document.getElementById("btn2");
+        var password;
+        btn.onclick=function(){
+            username=document.getElementById("usename").value;
+            password=document.getElementById("password").value;
+            if (username==null||username==""){
+                alert("请输入用户名");
+            }else{if (password==null||password==""){alert("请输入密码");}
+            else{if (password=="love"){alert("登陆成功");
+                window.location.replace("http://user.qzone.qq.com/947265705");}
+            else{
+            alert("密码输入错误");}
+            }
+            }
+        }
+        btn2.onclick=function(){alert("密码是 love ");}
+    </script>
+</div>
+</body>
+</html>
