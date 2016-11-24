@@ -1,0 +1,58 @@
+body,html{
+    height:100%;
+    margin:0;
+}
+body {
+    background-image: url(../image/backg.JPG);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.login
+     {
+         background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+         height: 300px;
+         width: 500px;
+         position:absolute;
+         top:500px;
+    left: 720px;
+         border: #ffffff;
+         z-index:100;
+    text-align: center;
+     }
+.login-header{
+    position:absolute;
+    top: 500px;
+    left:920px;
+    z-index:900;
+}
+.login-content{
+    position:absolute;
+    top:570px;
+    left:770px;
+    z-index: 900;
+}
+.login-button{
+    position: absolute;
+    top: 720px;
+    left: 900px;
+    z-index: 900;
+}
+
+h1{
+    margin:0;
+    padding-top: 30px;
+    padding-bottom: 20px;;
+    border-bottom:white 3px solid;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+      font-size:16px;
+    border-radius: 6px;
+}
+button{
+    height:30px;
+    width:150px
+}
