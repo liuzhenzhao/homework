@@ -1,0 +1,48 @@
+body, html
+{
+    hight: 100%;
+    margin: 0;
+}
+body
+{
+    background-image: url("../img/background.jpg");
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+.login
+{
+    background-color: rgba(255, 255, 255, 0.6);
+    background-image: url("../img/login.jpg");
+    margin: auto;
+    height: 350px;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    border-radius: 6px;
+    border: #ffffff;
+}
+
+h1
+{
+    margin: 0;
+    font-size: 25px;
+    font-family: "Adobe 宋体 Std L";
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+input
+{
+    height: 30px;
+    width: 300px;       /*设置input输入框的长和宽*/
+    margin:20px;        /*通过设置margin可使两个输入框不紧靠在一起，上下之间有20*2=40px的间距，并且于label之间也有一定间距，看起来更美观*/
+    font-size: 14px;    /*设置字体大小*/
+}
+
+button
+{
+    height: 30px;
+    width: 80px;       /*设置按钮的长和宽*/
+}
